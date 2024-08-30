@@ -1,0 +1,61 @@
+.content {
+    padding: 10px;
+}
+
+.contacts {
+    display: flex;
+    background-color: white;
+    padding: 0 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.contacts p {
+    margin-left: 50px;
+}
+
+.profile_page {
+    display: flex;
+}
+
+.info {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 15px;
+    width: 70%;
+}
+
+.profile_page img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.works {
+    display: flex;
+    background-color: white;
+    padding: 0 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.works p {
+    margin-left: 50px;
+}
+
+.button {
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.input {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input, button {
+    margin-top: 20px;
+}

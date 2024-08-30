@@ -1,0 +1,28 @@
+.News a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.News p {
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+.News {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.News_Conatiner {
+    padding: 40px;
+}
+
+.News_Conatiner h1 {
+    text-align: center;
+}

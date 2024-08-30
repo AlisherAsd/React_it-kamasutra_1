@@ -1,0 +1,45 @@
+.activePage {
+    font-weight: bold;
+    font-size: 23px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.Page {
+    padding: 0px 2px;
+    cursor: pointer;
+}
+
+.users_list {
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+.user_item {
+    margin-left: 10px;
+    max-width: 140px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.input, button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.search {
+    text-align: center;
+}

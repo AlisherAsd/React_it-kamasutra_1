@@ -1,0 +1,28 @@
+.header {
+    grid-area: h;
+    max-width: 800px;
+}
+.header img {
+    width: 60px;
+    margin-right: 0px;
+}
+
+.header a img {
+    width: 50px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.loginBlock {
+    float: right;
+}
+
+.loginBlock a {
+    color: white;
+    text-decoration: none;
+}
+
+.log a {
+    margin-left: 30px;
+}
+

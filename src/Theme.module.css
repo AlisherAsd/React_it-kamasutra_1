@@ -1,0 +1,23 @@
+.Light_header {
+    background-color: rgb(100, 141, 255);
+}
+
+.Dark_header {
+    background-color: rgb(123, 123, 123);
+}
+
+.Light_navbar {
+    background-color: rgb(47, 75, 150);
+}
+
+.Dark_navbar {
+    background-color: rgb(34, 34, 34);
+}
+
+.Light_bg {
+    background-color: rgb(192, 208, 250);
+}
+
+.Dark_bg {
+    background-color: rgb(186, 186, 186);
+}

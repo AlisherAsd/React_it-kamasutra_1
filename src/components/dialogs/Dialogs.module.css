@@ -1,0 +1,11 @@
+.dialogs {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 2fr 10fr;
+}
+
+
+.dialogs_item a {
+   color: black;
+   text-decoration: none;
+}

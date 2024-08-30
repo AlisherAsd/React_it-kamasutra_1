@@ -1,0 +1,16 @@
+.dialog {
+    padding: 30px 60px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.dialog_item {
+    display: flex;
+}
+
+.dialog_item img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}

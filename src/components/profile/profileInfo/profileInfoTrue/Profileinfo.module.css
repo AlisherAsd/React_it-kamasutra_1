@@ -1,0 +1,44 @@
+.content {
+    padding: 10px;
+}
+
+.contacts {
+    display: flex;
+    background-color: white;
+    padding: 0 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.contacts p {
+    margin-left: 50px;
+}
+
+.profile_page {
+    display: flex;
+}
+
+.info {
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 15px;
+    width: 70%;
+}
+
+.profile_page img {
+    height: 300px;
+    border-radius: 20px;
+}
+
+.works {
+    display: flex;
+    background-color: white;
+    padding: 0 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.works p {
+    margin-left: 50px;
+}
