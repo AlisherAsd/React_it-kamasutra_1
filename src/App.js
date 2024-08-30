@@ -47,7 +47,7 @@ const App = (props) => {
 
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className={styleTheme}>
             <Header />
             <Navbar />
