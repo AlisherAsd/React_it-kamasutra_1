@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import t from './Theme.module.css'
 import { Dialogs } from './components/dialogs/Dialogs';
@@ -47,7 +47,7 @@ const App = (props) => {
 
   
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <div className={styleTheme}>
             <Header />
             <Navbar />
@@ -77,7 +77,7 @@ const App = (props) => {
               </Routes>
             </div>
         </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
