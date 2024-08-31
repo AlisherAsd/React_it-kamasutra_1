@@ -34,7 +34,7 @@ export const Header = () => {
     return (
         <header className={styleTheme}>
       
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF58H8w3pm_H5mgkihLstCFTyhzd3DOzE4pA&s'/>
+            <img src='https://sun9-5.userapi.com/s/v1/ig2/eRHLi1nRsgyWiFP62lKccv8iFeq2TWU1CRb9eTzprgEVMrAnYiUpeVZthnVfR2vtXmGtrEebrko4GEM6ZbLvyPUL.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280&from=bu&u=vehVRejYuBDzrUaqkhlGx5VVKYENl6jr24NjhhG4eKc&cs=320x320'/>
             <div className={classes.loginBlock}>
                 {!isAuth ? 
                     <NavLink to={'/login'}>

@@ -104,6 +104,9 @@ export const dialogsApi = {
     getAllDialogs() {
         return axios.get(`${baseurl}/dialogs/`, {
             withCredentials: true,
+            headers: {
+                "API-KEY": apikey_testacc
+            }
         })
     },
     sendMessageApi({id, text}) {

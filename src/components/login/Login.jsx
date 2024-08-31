@@ -67,7 +67,7 @@ const Login = () => {
                     />
                     {errors.password && touched.password && errors.password}
                   
-                    <label>
+                    <label style={{display: 'flex'}}>
                         <input 
                             type="checkbox"
                             name="rememberMe"
@@ -75,12 +75,15 @@ const Login = () => {
                             onBlur={handleBlur}
                             value={values.rememberMe}
                         />
-                        remember me
+                        <h4>remember me</h4>
                     </label>
 
-
+                    <p
+                        style={{fontSize: 10, fontWeight: 600}}
+                    >Если вы используете ios для успешной работы сайт ипользуете third party cookie </p>
                     <button type="submit" disabled={isSubmitting}>
-                        Submit
+                        <a style={{color: 'black'}}
+                        >Войти</a>
                     </button>
                     {captcha ? 
                         <>
