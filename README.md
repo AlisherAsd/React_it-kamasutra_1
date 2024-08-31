@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Data of test account 
+## email: v92032619@gmail.com
+## password: Alisher123
 
 ## Available Scripts
 
