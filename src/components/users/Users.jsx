@@ -46,19 +46,22 @@ export const Users = () => {
             >Найти</button>
         </div>
         {pag ?
-        <div style={{textAlign: 'center', paddingTop: 20, paddingBottom: 20}}>
+        <div className={classes.pagnation}>
             <a 
                 style={{marginRight: 15}}
                 onClick={() => num > 1 ? setNum(num - 1) : <></>
             }>&#9668;</a>
             {
                 pages.map(num => {
-                    return (
-                        <span 
-                            className={currentPage === num ? classes.activePage : classes.Page}
-                            onClick={() => dispatch(setCurrentPage(num))}
-                    >{num}</span>
-                    )   
+                    if (num !== 0) {
+                        return (
+                            <span 
+                                key={num}
+                                className={currentPage === num ? classes.activePage : classes.Page}
+                                onClick={() => dispatch(setCurrentPage(num))}
+                        >{num}</span>
+                        )   
+                    }
                 }) 
             
             }

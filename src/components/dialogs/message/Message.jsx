@@ -38,6 +38,7 @@ export const Message = (props) => {
             {messages.map(mess => {
                 return (
                     <div 
+                        key={mess.body}
                         className={
                             mess.senderId === user.id ? classes.senderMess : classes.recipiendMess
                         }

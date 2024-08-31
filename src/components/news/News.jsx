@@ -30,12 +30,12 @@ export const News = () => {
                 posts.map(post => {
                     
                     return (
-                        <div className={classes.News}>
+                        <div className={classes.News} key={post.id}>
                                 <NavLink 
                                     to={'/news/' + post.userId}
                                 >
                                     <h4>{post.title}</h4>
-                                    <p>{post.title}</p>
+                                    <p>{post.body}</p>
                                 </NavLink>
                         </div>
                     )

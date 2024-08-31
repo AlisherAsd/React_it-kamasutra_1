@@ -43,7 +43,7 @@
     margin-left: 50px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 440px) {
     .profile_page {
         display:block;
     }
@@ -52,10 +52,10 @@
         background-color: white;
         border-radius: 20px;
         margin-left: 0px;
-        width:200px;
+        width:250px;
     }
     .profile_page img {
-        height: 200px;
+        width:270px;
         border-radius: 20px;
     }
     .contacts {

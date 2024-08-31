@@ -26,3 +26,11 @@
 .News_Conatiner h1 {
     text-align: center;
 }
+
+@media (max-width: 440px) {
+
+    .News_Conatiner {
+        width: 270px;
+        padding: 10px;
+    }
+}

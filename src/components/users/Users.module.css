@@ -43,3 +43,20 @@ li {
 .search {
     text-align: center;
 }
+
+.pagnation {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 440px) { 
+    .user_item {
+        margin-left: 10px;
+        width: 160px;
+    }
+
+    .container {
+        width: 270px;
+    }
+}

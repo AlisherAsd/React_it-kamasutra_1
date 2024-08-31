@@ -35,7 +35,7 @@ const SelectedNews = () => {
             {
                 comments.map(comm => {
                     return (
-                        <div className={classes.comm}>
+                        <div className={classes.comm} key={comm.id}>
                         <NavLink to={`/users/${comm.id}`}>
                             <h3>{comm.email}</h3>
                             <p>{comm.body}</p>

@@ -23,7 +23,11 @@ export const Dialogs = () => {
                     { dialogs.map( (el) => { 
                         console.log(el);
                         
-                        return <Dialog name={el.userName} id={el.id} photo={el.photos.small} 
+                        return <Dialog 
+                            name={el.userName} 
+                            key={el.id}
+                            id={el.id} 
+                            photo={el.photos.small} 
                             lastDialogActivityDate={el.lastDialogActivityDate}
                             hasNewMessages={el.hasNewMessages}
                             lastUserActivityDate={el.lastUserActivityDate}

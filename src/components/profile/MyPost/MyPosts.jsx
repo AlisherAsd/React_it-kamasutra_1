@@ -11,7 +11,7 @@ export const MyPosts = () => {
     const dispatch = useDispatch()
     const [text, setText] = useState('it-kamasutra')
     
-    let PostsData = posts.map( (el) => { return <Post message={el.message} likeCount={el.likesCount} /> } )
+    let PostsData = posts.map( (el) => { return <Post message={el.message} likeCount={el.likesCount} key={el.id} /> } )
     
     
     const AddPost = () => {
