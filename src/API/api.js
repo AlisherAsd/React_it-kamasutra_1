@@ -14,13 +14,21 @@ export const API = {
     
     getUsers(currentPage, pageSize, text) {
         return axios.get(`${baseurl}/users?page=${currentPage}&count=${pageSize}&term=${text}`, {
-            withCredentials: true
+            withCredentials: true,
+            headers: {
+                "API-KEY": apikey_testacc
+            }
         })
     },
 
     
     selectedUser(id) {
-        return axios.get(`${baseurl}/profile/${id}`)
+        return axios.get(`${baseurl}/profile/${id}`, {
+            withCredentials: true,
+            headers: {
+                "API-KEY": apikey_testacc
+            }
+        })
     },
     
     followUserApi(id) {
