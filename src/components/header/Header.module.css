@@ -1,6 +1,13 @@
 .header {
     grid-area: h;
-    max-width: 800px;
+    width: 100%;
+}
+
+@media (max-width: 440px) {
+    .header {
+        grid-area: h;
+        width: 420px;
+    }
 }
 .header img {
     width: 60px;

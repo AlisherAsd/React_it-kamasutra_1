@@ -14,3 +14,9 @@
     width: 80px;
     border-radius: 50px;
 }
+
+@media (max-width: 440px) {
+    .dialog_item {
+        display: block;
+    }
+}

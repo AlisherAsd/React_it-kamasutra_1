@@ -29,6 +29,17 @@
     margin-top: 100px;
 }
 
+@media (max-width: 440px) {
+    .senderMess {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin-left: 10%;
+        border-radius: 10px;
+        width: 200px;
+        margin-top: 10px;
+    }
+}
+
 .sendmess input {
     padding: 10px 40px;
     margin-right: 5px;
