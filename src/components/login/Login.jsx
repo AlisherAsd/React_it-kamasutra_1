@@ -13,6 +13,9 @@ const Login = () => {
         <div style={{textAlign: 'center'}}>
             <h1>Login</h1>
             <h3>Войдите чтобы общаться с друзьями и подписываться на них!</h3>
+            <ph4>Тестовые данные</ph4>
+            <p>Email: v92032619@gmail.com</p>
+            <p>Пароль: Alisher123</p>
             <div style={{width: 140}}>
                 <Formik
                 style={{textAlign: 'center'}}
